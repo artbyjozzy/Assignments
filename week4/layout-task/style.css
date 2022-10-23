@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend&display=swap');
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    
+}
+
+/* div classes styling */
+
+.sedans{
+    border: none;
+    padding: 3rem 1.5rem;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+.suvs{
+    border: none;
+    padding: 3rem 1.5rem;
+    background-color:hsl(184, 100%, 22%);
+}
+
+
+.luxury{
+    border: none;
+    padding: 3rem 1.5rem;
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+}
+
+/* paragraphs styling */
+
+p{
+    margin-bottom: 4rem;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    
+}
+
+/* h2 header styling */
+
+h2{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 1.7px;
+    font-size: 30px;
+
+}
+
+/* button styling */
+
+button{
+    padding: 0.6rem;
+    border-radius: 2.2rem;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    width: 60%;
+    font-weight: 400;
+}
+
+button:active{
+    scale: 0.7;
+}
+
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+.suvs button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    position: absolute;
+    bottom: 40px;
+    width: 30%;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+   background-color: transparent;
+    border:2px solid #000;
+    color: #000;
+}
+    
