@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+
+
+.container{
+    background-color: rgba(255, 0, 0, 0.3);
+    border: 2px solid red;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    position: relative;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+   }
+   
+   .container h1{
+       text-align: center;
+       margin-bottom: 30px;
+   } 
+   
+   .home ul li{
+       border: 2px solid red;
+       border-radius: 10px;
+   }
+   
+   .home ul li:hover{
+       border-color: white;
+   }
+   
+   .form-control{
+       position: relative;
+       margin: 10px 0 20px;
+       width: 300px;
+       text-transform: capitalize;
+   } 
+   
+   .form-control input{
+       background-color: transparent;
+       border: 0;
+       border-bottom: 2px #fff solid;
+       display: block; 
+       width: 100%;
+       font-size: 18px;
+       color: #fff; 
+       
+   }
+   
+   .form-control input:focus{
+       outline: 0;
+       border-bottom-color: red;
+   }
+
+   textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    color: white;
+   }
+   
+   .btn{
+       width: 100%;
+       border: 0;
+       border-radius: 5px;
+       padding: 0.8rem 0;
+       background-color: rgba(255, 255, 255);
+       color:red;
+       text-transform: uppercase;
+       font-weight: bold;
+       cursor: pointer;
+   }
+   
+   .btn:active{
+       scale: calc(0.9);
+   }
+   

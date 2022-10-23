@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom,
+    #009999,
+    #00ffff
+
+    );
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+ background-color: rgba(0, 0, 0, 0.3);
+ padding: 3rem 3rem;
+ border-radius: 0.6rem;
+ position: relative;
+ 
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+ .form-control{
+    position: relative;
+    margin: 10px 0 50px;
+    width: 300px;
+    text-transform: capitalize;
+} 
+
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block; 
+    width: 100%;
+    font-size: 18px;
+    color: #fff; 
+    
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-bottom-color: red;
+}
+
+.btn{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.8rem 0;
+    background-color: rgba(255, 255, 255);
+    color:#005f5f;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:active{
+    scale: calc(0.9);
+}
+
+.register a{
+    text-decoration: none;
+    color: black;
+
+}
+.register a:hover{
+    color:red ;
+}
+
+p{
+    padding-top: 1rem;
+}
+@media(max-width:480px){
+    .container{
+      margin: 0.9rem;
+      padding: 2rem 3rem;
+    }
+  }
